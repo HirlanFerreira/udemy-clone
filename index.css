@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  min-height: 100%;
+  gap: 5px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 18rem;
+  padding: 5px 5px;
+}
+
+.produto img{
+ height:200px ;
+
+}
